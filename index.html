@@ -1,127 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Application Form</title>
-    <link href="style.css" type="text/css" rel="stylesheet">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="icon" href="Image\form.jpg">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Pop-up</title>
 </head>
 <body>
-    <div class="form" style=" height: 107vh;">  
-     <div class="header">
-     <h1>Job Application Form</h1>
-     <h3>Please Fill Out the Form Below to Submit Your Application!</h3>
-     <hr>
-    </div><br><br>
-     <div id="name">
-    <label>Name: </label><span>*</span></div>
-    <div id="n">
-        <div>
-    <input type="text" id="namebox">
-    <p id="fn">FirstName</p></div>
-    <div>
-    <input type="text" id="namebox">
-    <p id="fn">LastName</p></div>
-</div>  
-<div id="mailandnumber">
-<div id="email">
-    <label for="email">Email:</label><span>*</span><br>
-    <input type="text" id="emailbox" placeholder="ex:myname@gmail.com">
-    <p id="exmail">example@gmail.com</p>
+  <div class="open-popup">
+    <h3>How to Add Bootstrap Modal in ReactJS - Websolutionstuff</h3>
+   <br>
+    <a href="#popup" ><button id="open">Open Modal</button></a>
 </div>
-<div id="phone">
-    <label for="phone">Phone Number:</label><span>*</span><br>
-    <input type="number" id="contactbox" placeholder="000-000-0000">
+  <div id="popup" class="modal">
+    <div class="popup-content">
+      <a href="#"
+    class="box-close">
+     ×
+ </a>
+      <h3>How to Add Bootstrap Modal in ReactJS - Websolutionstuff</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, quo omnis aut molestias accusantium perferendis repudiandae rerum. Aliquid voluptates rerum eos asperiores, adipisci maiores deleniti rem tenetur cumque atque ullam.Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p> 
+ <div class="buttons">
+      <a><button href=".open-popup" class="save-popup">Save</button></a>
+    <a href="#"><button href="#" class="close-popup">Close</button></a> 
 </div>
-</div>
-<div id="g">
-    <label for="gender">Gender</label>
-    <br>
-    <input type="radio" name="gen">Male
-    <br>
-    <input type="radio" name="gen">Female
-    <br>
-    <input type="radio" name="gen">Transgender
-</div>
-<br>
-<div id="city">
-<label for="city">Current City</label>
-<select>
-    <option>Bangalore</option>
-    <option>Hyderabad</option>
-    <option>Chennai</option>
-    <option>Pune</option>
-    <option>Mumbai</option>
-
-</select>
-</div>
-<br>
-<div id="pos">
-<div id="position">
-    <label for="position">Applied Position</label>
-    <br>
-    <input type="text" id="posbox">
-</div>
-<div id="date">
-    <label for="date">Earliest Possible Start Date</label>
-<br>
-    <input type="date" placeholder="MM-DD-YYYY" id="datebox">
-<p id="d">Date</p>
-</div>
-</div>
-<div class="prefer">
-<div id="idate">
-    <label for="idate">Preferred Interview Date</label>
-    <br>
-    <input type="date" placeholder="MM-DD-YYYY" id="idatebox">
-</div>
-<div id="time">
-<div id="side">
-   <p>Monday,March 27</p>
-   <i class='bx bxs-chevron-left-circle' id="icon"></i>
-   <i class='bx bxs-chevron-right-circle' id="icon"></i>
-</div >
-<div id="up">
-<div id="box">
-    11:30 AM
-</div>
-<div id="box">
-    12:30 PM
-</div>
-<div id="box">
-    1:30 PM
-</div>
-<div id="box">
-    2:30 PM
-</div>
-<div id="box">
-    4:00 PM
-</div>
-<div id="box">
-    6:30 PM
-</div>
-</div>
-</div>
-</div>
-<div id="resume">
-    <label for="resume">Upload Resume: </label><span>*</span>
-</div>
-<div class="uploadbox" style="border: solid 1px; width: 90%; margin-left: 25px; height: 75px; margin-top: 10px;">
-    <i class='bx bx-cloud-upload' id="uf" style="font-size: 35px;"></i>
-<h4 id="uf" style="margin-bottom: 0;">Upload a file</h4>
-<p id="uf">Drag and drop files here</p>
-</div>
-<hr>
-<div id="btn">
-<button  id="apply">
-    Apply
-</button>
-</div>
-    </div>
+  </div>
+  </div>
 </body>
 </html>
-
-
-

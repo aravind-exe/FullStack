@@ -1,147 +1,76 @@
-.header{
-    text-align: center;
-    justify-content: center;
-    height: 50px;
-    position: relative;
+.open-popup{
+  text-align: center;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  border-radius: 25%;
+  border-color: blue;  
+  align-items: center;
+  justify-content: center;
 }
-#name{
-    display: flex;
-    height: 20px;
-    margin-left: 30px;
-    margin-top: 20px;
+#open{
+  background-color:blue ;
+  color: white;
+  border-radius: 10%;
+  padding: 5px 10px;
+  margin: 0 auto;
+  border: none;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  display: flex;
 }
-#namebox{
-    margin-left: 15px;
-    height: 25px;
-    width: 200px;
+.popup-content{
+  text-align: justify;
+  padding: 10%;
 }
-#n{
-    display: flex;
-    margin-left: 15px;
+.save-popup{
+  color:white;
+  background-color:blue;
+  border-radius: 15%;
+  justify-content: center;
+  cursor: pointer;
 }
-#fn{
-    margin-left: 15px;
-    margin-top: 5px;
-}
-#email{
-    margin-left: 27px;
-}
-#emailbox{
-    height: 22px;
-    width: 205px;
-}
-#mailandnumber{
-    display: flex;
-}
-#phone{
-    margin-left: 27px; 
-}
-#contactbox{
-    height: 22px;
-    width: 205px;
-}
-.form{
-    justify-content: center;
-    align-items: center;
-}
-#exmail{
-    margin-top: 1px;
-}
-#g{
-    margin-left: 27px; 
-}
-#city{
-   margin-left: 25px; 
-}
-.form{
-    background-color: white;
-    height: 100vh;
-    width: 70vh;
-    margin-left: 500px;
+
+.close-popup{
+  color: white;
+  background-color: black;
+  border-radius: 15%;
+  justify-content:center;
+  cursor: pointer;
 }
 body{
-    background-color: lightblue;
+  overflow: hidden;
+  background-color: gray;
 }
-#pos{
-    display: flex;
+.box-close {
+  position: absolute;
+  top: 0;
+  right: 15px;
+  color: #fe0606;
+  text-decoration: none;
+  font-size: 25px;
 }
-#position{
-    margin-left: 27px;
+#popup{
+  height: 300px;
+  width: 500px;
+  background-color: white;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  visibility: hidden;
 }
-#date{
-    margin-left: 40px; 
+#popup:target{
+  visibility: visible;
+ 
 }
-#posbox{
-    width: 200px;
-    height: 20px;
+body{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-#datebox{
-    width: 200px;
-    height: 20px;
-}
-#d{
-    margin-top: 2px;
-}
-#idate{
-    margin-left: 30px; 
-    height: 140px;
-}
-#idatebox{
-    width: 200px;
-    height: 20px;
-}
-div span{
-    color: red;
-}
-#side{
-    display: flex;
-    margin-left: 25px;
-}
-#icon{
-    margin-top: 15px;
-    margin-left:25px;
-}
-#box{
-width: 35%;
-border: 3px solid lightskyblue;
-margin: 5px;
-height: 20px;
-text-align: center;
-color: lightskyblue;
-margin-top: 1px;
-}
-#up{
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: 20px;
-}
-.prefer{
-    display: flex;
-}
-.updloadbox{
-    border: solid 1px;
-    width: 90%;
-    margin-left: 25px;
-    height: 75px; 
-    margin-top: 10px;
-}
-#time{
-    height: 140px;
-  
-}
-#resume{
-    margin-left: 30px;
-}
-#uf{
-    display: flex;
-    justify-content: center;
-    margin-top: 1px;
-}
-#apply{
-    background-color: gray;
-    color: white;
-}
-#btn{
-    text-align: center;
-    justify-content: center;
+.buttons{
+  text-align: right;
 }
