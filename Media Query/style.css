@@ -1,0 +1,58 @@
+#lion{
+  border: 5px solid black;
+  margin-left: 80px;
+  padding: 5px 2px;
+  margin-top:10px;
+}
+#panther{
+    border: 5px solid black;
+    margin-left: 80px;
+    padding: 5px 2px;
+    margin-top:10px;
+}
+#tiger{
+    border: 5px solid black;
+    margin-left: 80px;
+    padding: 5px 2px;
+    margin-top:10px;
+}
+#wolf{
+    border: 5px solid black;
+    margin-left: 80px;
+    padding: 5px 2px;
+    margin-top:10px;
+}
+#dobie{
+    border: 5px solid black;
+    margin-left: 80px;
+    padding: 5px 2px;
+    margin-top:10px;
+}
+.pics{
+width:900px;
+text-align: center;
+display: flex;
+flex-wrap: wrap;
+}
+#l{
+    text-align: center;
+}
+@media screen and (max-width : 800px ) {
+    .pics{
+        width: 500px;
+    }
+    body{
+        background-color: #89D4EA;
+    }
+}
+@media screen and (max-width : 500px ) {
+    .pics{
+        flex-direction: column;
+        width: 200px;
+        margin-right: 20px;
+    }
+    body{
+     
+            background-color: #F3EEEE;
+        }
+}
