@@ -1,0 +1,164 @@
+#header{
+    position: fixed;
+    display: flex;
+    background-color: aqua;
+    text-align: end;
+    justify-content: end;
+    height: 40px;
+    top: 0;
+    right: 0;
+    width: 100%;
+}
+#home:hover{
+    background-color: blue;
+    cursor: pointer;
+}
+#about:hover{
+    background-color: blue;
+    cursor: pointer;
+}
+#project:hover{
+    background-color: blue;
+    cursor: pointer;
+}
+#contact:hover{
+    background-color: blue;
+    cursor: pointer;
+}
+.btn{
+    height: 40px;
+    border: 25px;
+    margin: 0;
+    border-right: solid 2px black;
+    
+}
+.name{
+    justify-content: center; 
+    align-items: center;
+    text-align: center;
+    /* margin-left: 25%; */
+     margin-top: 250px;
+     margin-left: 100px;
+    font-family: sans-serif;
+    color: darkblue;
+}
+#footer{
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    background-color: lightseagreen;
+    height: 30px;
+    margin-top: 340px;
+}
+#beffooter{
+    position: fixed;
+    width: 100%;
+    bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lightskyblue;
+    height: 50px;
+}
+h3{
+    color: gray;
+}
+.image{
+    width: 50%;
+    max-width: 700px;
+    min-width: 250px;
+    height: 90vh;
+    clear: both;
+}
+
+body{
+    margin: 0%;
+}
+.img{
+    width: 100%;
+    height: 90vh;
+}
+#content{
+    display: flex;
+
+}
+#info{
+    display: flex;
+}
+#details{
+    justify-content: center;
+    align-items: center;
+    margin-left: 5%;
+    margin-top: 40px;
+    color: darkblue;
+}
+.ai1{
+    width: 30%;
+    height: 150px;
+}
+.android1{
+    width: 50%;
+    height: 150px;
+}
+.chatbot1{
+    width: 60%;
+    height: 150px;
+}
+.ai{
+    display: flex;
+    border: solid 5px darkblue;
+    margin: 0 0 50px 0;
+    border-radius: 10px;
+}
+.android{
+    display: flex;
+    border: solid 5px darkblue;
+    margin: 0 0 50px 0;
+    border-radius: 15px;
+}
+.chatbot{
+    display: flex;
+    border: solid 5px darkblue;
+    margin: 0 0 50px 0;
+    border-radius: 15px;
+}
+.p{
+    text-align: justify;
+    margin-left: 15px;
+}
+.pro{
+    margin-top: 60px;
+    background-color:gray;
+}
+#icons{
+    font-size: 20px;
+   position: absolute;
+   left: 60%;
+   bottom: 50%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   /* align-content: space-between; */
+}
+#icons i {
+    margin-top: 20px;
+}
+#a_link{
+    position: absolute;
+   left: 60%;
+   bottom: 50%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+#a_link a {
+    margin-top: 20px;
+    margin-left: 50px;
+
+    
+}
