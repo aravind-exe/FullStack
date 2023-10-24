@@ -1,0 +1,158 @@
+.header{
+    text-align: center;
+    justify-content: center;
+    height: 50px;
+    position: relative;
+    color: rgba(71,9,121,1);
+}
+#name{
+    display: flex;
+    height: 20px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+#namebox{
+    margin-left: 15px;
+    height: 20px;
+    width: 200px;
+}
+#namebox1{
+    margin-left: 15px;
+    height: 20px;
+    width: 200px;
+}
+#n{
+    display: flex;
+    margin-left: 15px;
+}
+#fn{
+    margin-left: 15px;
+    margin-top: 5px;
+}
+#email{
+    margin-left: 27px;
+}
+#emailbox{
+    height: 22px;
+    width: 205px;
+}
+#mailandnumber{
+    display: flex;
+}
+#phone{
+    margin-left: 27px; 
+}
+#contactbox{
+    height: 22px;
+    width: 205px;
+}
+.form{
+    justify-content: center;
+    align-items: center;
+}
+#exmail{
+    margin-top: 1px;
+}
+#g{
+    margin-left: 27px; 
+}
+#city{
+   margin-left: 25px; 
+}
+.form{
+    background-color: white;
+    height: 100vh;
+    width: 70vh;
+    margin-left: 500px;
+}
+body{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(71,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+#pos{
+    display: flex;
+}
+#position{
+    margin-left: 27px;
+}
+#date{
+    margin-left: 40px; 
+}
+#posbox{
+    width: 200px;
+    height: 20px;
+}
+#datebox{
+    width: 200px;
+    height: 20px;
+}
+#d{
+    margin-top: 2px;
+}
+#idate{
+    margin-left: 30px; 
+    height: 140px;
+}
+#idatebox{
+    width: 200px;
+    height: 20px;
+}
+div span{
+    color: red;
+}
+#side{
+    display: flex;
+    margin-left: 25px;
+}
+#icon{
+    margin-top: 15px;
+    margin-left:25px;
+}
+#box{
+width: 35%;
+border: 3px solid lightskyblue;
+margin: 5px;
+height: 20px;
+text-align: center;
+color: lightskyblue;
+margin-top: 1px;
+}
+#up{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 20px;
+}
+.prefer{
+    display: flex;
+}
+.updloadbox{
+    border: solid 1px;
+    width: 90%;
+    margin-left: 25px;
+    height: 75px; 
+    margin-top: 10px;
+}
+#time{
+    height: 140px;
+  
+}
+#resume{
+    margin-left: 30px;
+}
+#uf{
+    display: flex;
+    justify-content: center;
+    margin-top: 1px;
+}
+#apply{
+    background-color:rgba(71,9,121,1);
+    color: white;
+    width: 200px;
+    height: 30px;
+    cursor: pointer;
+    border-color: lightskyblue;
+}
+#btn{
+    text-align: center;
+    justify-content: center;
+}
