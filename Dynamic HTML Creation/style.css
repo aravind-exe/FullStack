@@ -1,0 +1,35 @@
+.table{
+    display: table;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 30px;
+}
+.header
+{
+    display: table-header-group;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 12px;
+    background-color:aqua
+    
+}
+.column{
+    display: table-cell;
+    width:200px;
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+    
+}
+
+.table1{
+    display: table-row;
+}
+.table1:nth-child(odd){
+    background-color: beige;
+}
+.table1:nth-child(even){
+    
+    background-color:lightcoral;
+}
