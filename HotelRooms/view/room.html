@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rooms</title>
+</head>
+
+<body>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            font-family: Arial, sans-serif;
+        }
+
+        h1 {
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+            background-color: #333;
+        }
+
+        table {
+            width: 90%;
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: #fff;
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            padding: 10px;
+            text-align: left;
+        }
+
+        thead {
+            color: #fff;
+            background-color: #333;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        form {
+            padding: 20px;
+            max-width: 400px;
+            margin: 20px auto;
+            background-color: #fff;
+            border: 1px solid #ddd;
+        }
+
+        input[type="text"],
+        input[type="number"],
+        input[type="date"],
+        button {
+            width: 95%;
+            padding: 10px;
+            display: block;
+            border-radius: 4px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+        }
+
+        button {
+            border: none;
+            color: #fff;
+            background-color: #333;
+        }
+
+        button:hover {
+            background-color: #555;
+        }
+    </style>
+
+    <h1>Room Management</h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Room Type</th>
+                <th>Room Number</th>
+                <th>Capacity</th>
+                <th>Bed Configuration</th>
+                <th>View</th>
+                <th>Price</th>
+                <th>Discount</th>
+                <th>Check-In</th>
+                <th>Check-Out</th>
+                <th>Functions</th>
+            </tr>
+        </thead>
+        <tbody id="roomData">
+
+        </tbody>
+    </table>
+    <form id="roomForm">
+        <input type="text" placeholder="Room Type" name="room_type" >
+        <input type="text" placeholder="Room Number" name="room_number" >
+        <input type="number" placeholder="Capacity" name="capacity" >
+        <input type="text" placeholder="Bed Configuration" name="bed_configuration" >
+        <input type="text" placeholder="View" name="view" >
+        <input type="number" placeholder="Price" name="price" >
+        <input type="number" placeholder="Discount" name="discount" >
+        <input type="date" placeholder="Check-In" name="check_in" >
+        <input type="date" placeholder="Check-Out" name="check_out" >
+        <input type="hidden" name="roomId" id="roomId">
+        <button type="submit" id="submitButton">Add/Update Room</button>
+    </form>
+    <script src="script.js"></script>
+</body>
+
+</html>
